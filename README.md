@@ -17,7 +17,7 @@ Sviluppare:
 - il metodo int Rimanenti( int mattoni ) che torna il numero di mattoni rimasti dopo la costruzione
 
  Ho utilizzato un ciclo while per incrementare il numero di piani finché ci sono abbastanza mattoni per costruirli.
- La formula utilizzata per calcolare il numero di mattoni necessari per un certo numero di piani è (2 * piani - 1) * (2 * piani - 1).
+ La formula utilizzata per calcolare il numero di mattoni necessari per un certo numero di piani è (2 * piani - 1) * (2 * piani - 1):
  ```C#
          while (mattoni >= (2 * piani + 1) * (2 * piani + 1)) {
         piani++;
